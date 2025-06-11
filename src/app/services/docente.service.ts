@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment.prod';
 
-const urlbase = `${environment.apiUrl}/rest/docente/`;
+const urlbase = `${environment.apiUrl}/rest/docente/registraDocente`;
 
 @Injectable({
   providedIn: 'root',
